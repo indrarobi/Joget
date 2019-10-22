@@ -1,12 +1,43 @@
-{"properties": {
-    "bottomMargin": "10",
-    "description": "",
-    "id": "rp_sample",
-    "leftMargin": "10",
-    "name": "Sample Report",
-    "orientation": "portrait",
-    "pageHeight": "297",
-    "pageWidth": "210",
-    "rightMargin": "10",
-    "topMargin": "10"
-}}
+{
+    "body": {"elements": [{
+        "className": "org.joget.rbuilder.lib.ListReportElement",
+        "properties": {
+            "datalistId": "userlist",
+            "filterParams": [],
+            "footer": [],
+            "footerRowlabel": "",
+            "formulaColumns": [],
+            "headerColor": "",
+            "headerTextColor": "#000000",
+            "id": "35102EAA-F45D-4061-8B24-E37D2B43B61D"
+        }
+    }]},
+    "footer": {"elements": []},
+    "header": {"elements": [{
+        "className": "org.joget.rbuilder.lib.TextReportElement",
+        "properties": {
+            "align": "center",
+            "bold": "true",
+            "color": "",
+            "decoration": "",
+            "height": "",
+            "id": "A847B759-F559-49EB-D68C-B6DFA24D3042",
+            "italic": "",
+            "marginBottom": "10px",
+            "size": "",
+            "text": "TITLE REPORT"
+        }
+    }]},
+    "properties": {
+        "bottomMargin": "10",
+        "description": "",
+        "id": "rp_sample",
+        "leftMargin": "10",
+        "name": "Sample Report",
+        "orientation": "portrait",
+        "pageHeight": "297",
+        "pageWidth": "210",
+        "rightMargin": "10",
+        "topMargin": "10"
+    }
+}
