@@ -18,6 +18,8 @@
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {"formDefId": "processRequest"}
     },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
     "columns": [
         {
             "action": {
@@ -39,6 +41,14 @@
             "sortable": "true",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Created By",
+            "name": "createdBy",
+            "sortable": "false"
         },
         {
             "action": {
@@ -208,5 +218,6 @@
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "rowActions": [],
     "showDataWhenFilterSet": "",
+    "showPageSizeSelector": "true",
     "useSession": ""
 }
