@@ -1,12 +1,48 @@
-{"properties": {
-    "bottomMargin": "10",
-    "description": "",
-    "id": "rp_tes",
-    "leftMargin": "10",
-    "name": "tes",
-    "orientation": "portrait",
-    "pageHeight": "297",
-    "pageWidth": "210",
-    "rightMargin": "10",
-    "topMargin": "10"
-}}
+{
+    "body": {"elements": [{
+        "className": "org.joget.rbuilder.lib.ListReportElement",
+        "properties": {
+            "datalistId": "userlist",
+            "filterParams": [],
+            "footer": [],
+            "footerRowlabel": "",
+            "formulaColumns": [],
+            "headerColor": "#E61E1E",
+            "headerTextColor": "#FFFFFF",
+            "id": "978B29F5-FFCB-480F-8FA8-B0C00F9ADD38"
+        }
+    }]},
+    "footer": {"elements": []},
+    "header": {"elements": [
+        {
+            "className": "org.joget.rbuilder.lib.ImageReportElement",
+            "properties": {
+                "halign": "center",
+                "height": "",
+                "id": "80450713-506C-495E-8C9D-EFF664A16754",
+                "marginBottom": "10px",
+                "path": "#appResource.showcase-icon.png#",
+                "width": "100px"
+            }
+        },
+        {
+            "className": "org.joget.rbuilder.lib.HtmlReportElement",
+            "properties": {
+                "html": "TEST",
+                "id": "54B1A71E-A890-4F7E-E318-D927EDA39605"
+            }
+        }
+    ]},
+    "properties": {
+        "bottomMargin": "10",
+        "description": "",
+        "id": "rp_tes",
+        "leftMargin": "10",
+        "name": "tes",
+        "orientation": "portrait",
+        "pageHeight": "297",
+        "pageWidth": "210",
+        "rightMargin": "10",
+        "topMargin": "10"
+    }
+}
