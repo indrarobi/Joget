@@ -180,29 +180,48 @@
                         {
                             "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
-                                "encryption": "false",
-                                "id": "field7",
-                                "label": "TextField",
-                                "readonly": "False",
-                                "readonlyLabel": "False",
-                                "storeNumeric": "False",
-                                "style": ""
+                                "encryption": "",
+                                "id": "nama_approver",
+                                "label": "Nama Approver",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "",
+                                "style": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
                             }
                         },
                         {
                             "className": "org.joget.apps.form.lib.FileUpload",
                             "properties": {
-                                "attachment": "False",
+                                "attachment": "",
+                                "fileType": "",
                                 "fileTypeMsg": "Invalid file type",
-                                "id": "field9",
-                                "label": "FileUpload",
+                                "id": "upload",
+                                "label": "File Upload",
+                                "maxSize": "",
                                 "maxSizeMsg": "File size limit exceeded",
-                                "multiple": "False",
+                                "multiple": "",
+                                "padding": "",
                                 "permissionType": "",
-                                "readonly": "False",
-                                "removeFile": "false",
+                                "readonly": "",
+                                "removeFile": "",
+                                "resizeHeight": "",
                                 "resizeMethod": "",
-                                "resizeQuality": "0.8"
+                                "resizeQuality": "0.8",
+                                "resizeWidth": "",
+                                "size": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                }
                             }
                         }
                     ],
@@ -226,8 +245,12 @@
                                 "encryption": "true",
                                 "height": "80",
                                 "id": "field10",
-                                "label": "Signature",
-                                "readonly": "False",
+                                "label": "Tanda Tangan",
+                                "readonly": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
                                 "width": "200"
                             }
                         }
