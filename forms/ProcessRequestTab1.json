@@ -384,21 +384,6 @@
                         }
                     },
                     {
-                        "className": "org.joget.plugin.enterprise.Signature",
-                        "properties": {
-                            "encryption": "true",
-                            "height": "80",
-                            "id": "sign2",
-                            "label": "Tanda Tangan",
-                            "readonly": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "width": "200"
-                        }
-                    },
-                    {
                         "className": "org.joget.apps.form.lib.CustomHTML",
                         "properties": {
                             "autoPopulate": "",
