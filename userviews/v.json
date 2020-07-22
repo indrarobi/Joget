@@ -1323,20 +1323,37 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.plugin.enterprise.CsvImportMenu",
-                "properties": {
-                    "checkUTF8": "false",
-                    "disabledDelete": "false",
-                    "id": "3EA36BA731A640D9ADCCE99C0FB83038",
-                    "label": "Import Menu",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
+            "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "false",
+                        "disabledDelete": "false",
+                        "id": "3EA36BA731A640D9ADCCE99C0FB83038",
+                        "label": "Import Menu",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.rbuilder.lib.ReportUserviewMenu",
+                    "properties": {
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "enableOffline": "",
+                        "id": "C2B19717941F4A558DA2427E2B0687E8",
+                        "label": "Report Baru",
+                        "reportId": "rp_sample",
+                        "reportParams": [],
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
-            }],
+            ],
             "properties": {
                 "id": "category-E3E4923BA70841E6872C5DF0CF205F40",
-                "label": "New Category"
+                "label": "Report Menu"
             }
         }
     ],
