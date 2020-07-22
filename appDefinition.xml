@@ -91,6 +91,14 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>process1::route2</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>route2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.SimpleTensorFlowAIDecisionPlugin</pluginName>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process1::route1</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
