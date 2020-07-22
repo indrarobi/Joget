@@ -35,10 +35,10 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>approver1</activityDefId>
-                  <formId>processApprove1</formId>
+                  <formId>chartData</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
