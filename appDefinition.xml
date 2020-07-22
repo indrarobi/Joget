@@ -1,12 +1,11 @@
 <appDefinition>
    <id>jshowcasedx</id>
-   <version>1</version>
+   <version></version>
    <name>DX Showcase</name>
    <packageDefinitionList>
       <packageDefinition>
          <appId>jshowcasedx</appId>
          <id>jshowcasedx</id>
-         <version>1</version>
          <name>DX Showcase</name>
          <packageActivityFormMap>
             <entry>
@@ -92,20 +91,20 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>process1::route1</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>route1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process1::tool5</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
                   <activityDefId>tool5</activityDefId>
                   <pluginName>org.joget.plugin.enterprise.FormDataUpdateTool</pluginName>
                   <pluginProperties>{&quot;formDefId&quot;:&quot;processRequest&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;approvalStatus2&quot;,&quot;value&quot;:&quot;Cancelled&quot;}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
-               <string>process1::route1</string>
-               <packageActivityPlugin>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>route1</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -178,8 +177,8 @@
                <packageParticipant>
                   <processDefId>process1</processDefId>
                   <participantId>requester</participantId>
-                  <type>requester</type>
-                  <value>runProcess</value>
+                  <type>user</type>
+                  <value>admin</value>
                </packageParticipant>
             </entry>
             <entry>
