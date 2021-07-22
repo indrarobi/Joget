@@ -186,7 +186,7 @@
                   <processDefId>process1</processDefId>
                   <participantId>requester</participantId>
                   <type>user</type>
-                  <value>admin</value>
+                  <value>andri,admin</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -209,7 +209,9 @@
    <environmentVariableList/>
    <messageList>
       <message>
-         <id>tooltip.featurestdfield.textfield_en_us</id>
+         <id>tooltip.featureStdField.textField_en_US</id>
+         <appId>jshowcasedx</appId>
+         <appVersion>1</appVersion>
          <messageKey>tooltip.featureStdField.textField</messageKey>
          <locale>en_US</locale>
          <message>hanya input number</message>
