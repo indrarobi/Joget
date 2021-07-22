@@ -51,6 +51,7 @@
                             "cols": "20",
                             "id": "txt001",
                             "label": "txt001",
+                            "permissionHidden": "true",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
