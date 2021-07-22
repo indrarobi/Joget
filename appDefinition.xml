@@ -207,7 +207,14 @@
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
-   <messageList/>
+   <messageList>
+      <message>
+         <id>tooltip.featurestdfield.textfield_en_us</id>
+         <messageKey>tooltip.featureStdField.textField</messageKey>
+         <locale>en_US</locale>
+         <message>hanya input number</message>
+      </message>
+   </messageList>
    <resourceList>
       <appResource>
          <id>showcase_workflow.png</id>
