@@ -1349,6 +1349,21 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.rbuilder.lib.ReportUserviewMenu",
+                    "properties": {
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "report1",
+                        "enableOffline": "",
+                        "id": "0BD86532FFCB4CE79D87DF5F9D18F9BB",
+                        "label": "Report",
+                        "reportId": "rp_newreport",
+                        "reportParams": [],
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
