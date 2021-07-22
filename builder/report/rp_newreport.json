@@ -1,12 +1,56 @@
-{"properties": {
-    "bottomMargin": "10",
-    "description": "",
-    "id": "rp_newreport",
-    "leftMargin": "10",
-    "name": "new report",
-    "orientation": "portrait",
-    "pageHeight": "297",
-    "pageWidth": "210",
-    "rightMargin": "10",
-    "topMargin": "10"
-}}
+{
+    "body": {"elements": [{
+        "className": "org.joget.rbuilder.lib.ListReportElement",
+        "properties": {
+            "datalistId": "userlist",
+            "filterParams": [],
+            "footer": [],
+            "footerRowlabel": "",
+            "formulaColumns": [],
+            "headerColor": "#F21414",
+            "headerTextColor": "",
+            "id": "99A19AFD-17A1-4F09-288A-C6913A3E75EC"
+        }
+    }]},
+    "footer": {"elements": []},
+    "header": {"elements": [
+        {
+            "className": "org.joget.rbuilder.lib.ImageReportElement",
+            "properties": {
+                "halign": "center",
+                "height": "",
+                "id": "787D3E71-F2A3-4E55-688E-1F9C8A23B727",
+                "marginBottom": "10px",
+                "path": "#appResource.showcase-icon.png#",
+                "width": "100px"
+            }
+        },
+        {
+            "className": "org.joget.rbuilder.lib.TextReportElement",
+            "properties": {
+                "align": "center",
+                "bold": "true",
+                "color": "",
+                "decoration": "overline",
+                "height": "",
+                "id": "3A940788-59BE-437C-D855-0247FD343283",
+                "italic": "",
+                "marginBottom": "10px",
+                "size": "",
+                "text": "NEW REPORT"
+            }
+        }
+    ]},
+    "properties": {
+        "bottomMargin": "10",
+        "description": "",
+        "id": "rp_newreport",
+        "leftMargin": "10",
+        "name": "new report",
+        "orientation": "portrait",
+        "pageHeight": "297",
+        "pageWidth": "210",
+        "rightMargin": "10",
+        "topMargin": "10"
+    }
+}
